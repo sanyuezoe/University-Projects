@@ -9,13 +9,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
+    background-color: black;
 }
 
 .section-part{
     height: 100vh;
     background-size:cover;
     color:#deadad;
-    background-color: black;
 }
 
 /*header part */
@@ -265,82 +265,7 @@ nav .fa-bars:hover{
 }
 
 
-
-
-/* Story Part */
-.story-container{
-    position:relative;
-    margin-top: 100px;
-}
-
-.story-img{
-    z-index:0;
-    opacity: 25%;
-}
-
-.story-text{
-    position:absolute;
-    z-index:1;
-    color:white;
-    font-size: 150%;
-    line-height: 2;
-    bottom:200px;
-    right:50px;
-    left:50px;
-    padding-left:20px;
-    padding-right:20px;
-}
-
-
-.story-obj{
-    position:absolute;
-    padding-top:30px;
-    padding-left: 500px;
-
-}
-
-.obj-bracelet{
-    margin-right: 25px;
-    filter: brightness(0.5);
-}
-
-.obj-kerchief{
-    margin-left: 25px;
-    margin-right: 25px;
-    filter: brightness(0.5);
-}
-
-.obj-earring{
-    margin-left: 25px;
-    filter: brightness(0.5);
-}
-
-.obj-bracelet:hover{
-    filter: brightness(1);
-}
-
-.obj-kerchief:hover{
-    filter: brightness(1);
-}
-
-.obj-earring:hover{
-    filter: brightness(1);
-}
-
-.story-hover:hover{
-    color:#1c039d;
-    font-size: 120%;
-    transition: 0.5s;
-}
-
-
-
 /* Footer */
-
-footer {
-    background-color: black;
-}
-
 
 .footer-p {
     margin:0;
