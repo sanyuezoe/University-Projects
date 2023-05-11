@@ -48,6 +48,7 @@ window.addEventListener("scroll", function(){
 
 window.addEventListener("DOMContentLoaded", function () {
   changeText();
+  setup()
 });
 
 
