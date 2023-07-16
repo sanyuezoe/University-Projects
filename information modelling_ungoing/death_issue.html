@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Greek Mythology in Feminist Perspectives</title>
+
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head>
+
+        <body>
+            <header>
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <ul class="nav-links">
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <div class="menu">
+                        <li><a href="/">HOME</a></li>
+                        <li class="issues">
+                            <a href="/">ISSUE</a>
+                        <ul class="dropdown">
+                            <li><a href="love_issue.html">LOVE</a></li>
+                            <li><a href="death_issue.html">DEATH</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="/">MAP</a></li>
+                        <li><a href="/">DOCUMENTATION</a></li>
+                    </div>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- ISSUES-INTRO -->
+            <section>
+                <div class="issue-death-intro">
+                    <img src="img/Circe-offers-a-cup-to-Ulysses.jpg" alt="circe offers a cup to Ulysses">
+                    <div class="death-intro-text">
+                        <p>In the death issue, we embark on a poignant journey into the realm of death, 
+                        where we encounter the powerful narratives of four remarkable figures: Penthesilea, Hecuba, Clytemnestra, 
+                        and Medea. Through the eloquent voices of our talented writers, we breathe new life into their stories, 
+                        shedding light on their struggles, triumphs, and the complexities of their existence.</p>
+                        <p>oin us as we delve into the shadows, 
+                        uncovering the layers of meaning and untold narratives within the realm of death. 
+                        Prepare to be captivated by the stories of these formidable women,</p>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <!-- ISSUES -->
+            <section class="issues">
+                <div class="radio">
+                    <div id="options">
+                        <label><input type="radio" name="highlight-option" value="People"> People</label>
+                        <label><input type="radio" name="highlight-option" value="Place"> Place</label>
+                        <label><input type="radio" name="highlight-option" value="Concepts"> Concepts</label>
+                    </div>
+                </div>
+                <div class="death-button">
+                    <button data-article="articles/death/death_article1.html">Penthesilea</button>
+                    <button data-article="articles/death/death_article2.html">Hecabe</button>
+                    <button data-article="articles/death/death_article3.html">Medea</button>
+                  </div>
+                <div class="article-window">
+                    <div id="article-container">
+                        <iframe id="article-frame"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="article.js"></script>
+        </body>
+    </html>
