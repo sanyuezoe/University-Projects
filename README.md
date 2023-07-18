@@ -5,4 +5,5 @@ Interaction Media Design project **Hidden** (An immersive online museum exhibiti
 https://646fbc55a2d8311a5fcd990a--kaleidoscopic-shortbread-2d457e.netlify.app/
 
 Information Modelling and Web Technologies project **The Goddess Reimagined** (A Metadata magazine of Greek Mythology in Feminist Perspectives)  :
+
 https://64b67082526cbd072b917bfd--teal-kitten-d9a0c3.netlify.app/
