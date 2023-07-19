@@ -1,6 +1,4 @@
 // for issues page
-import { PenthesileaArray } from './metadata.js'
-
 
 var iframe = document.getElementById('article-frame');
 
