@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Mythology in Feminist Perspectives</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="/">HOME</a></li>
+                    <li class="navbar-issues">
+                        <a href="/">ISSUE</a>
+                        <ul class="dropdown">
+                            <li><a href="love_issue.html">LOVE</a></li>
+                            <li><a href="death_issue.html">DEATH</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="/">DOCUMENTATION</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ISSUES-INTRO -->
+    <section>
+        <div class="issue-intro">
+            <img src="img/Medea.webp" alt="Medea">
+            <div class="issue-intro-text">
+                <p>In the death issue, we embark on a poignant journey into the realm of death,
+                    where we encounter the powerful narratives of four remarkable figures: Penthesilea, Hecuba,
+                    Clytemnestra,
+                    and Medea. Through the eloquent voices of our talented writers, we breathe new life into their
+                    stories,
+                    shedding light on their struggles, triumphs, and the complexities of their existence.</p>
+                <p>oin us as we delve into the shadows,
+                    uncovering the layers of meaning and untold narratives within the realm of death.
+                    Prepare to be captivated by the stories of these formidable women,</p>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <!-- ISSUES -->
+    <section class="issues-main">
+        <div class="checkbox">
+            <div id="options">
+                <label><input type="checkbox" name="highlight-option" value="name"> People</label>
+                <label><input type="checkbox" name="highlight-option" value="place"> Places</label>
+                <label><input type="checkbox" name="highlight-option" value="concept"> Concepts</label>
+            </div>
+            <div class="metadata-list">
+                <div class="metadata-people">
+                    <h3>People</h3>
+                </div>
+                <hr>
+                <div class="metadata-place">
+                    <h3>Places</h3>
+                </div>
+                <hr>
+                <div class="metadata-concept">
+                    <h3>Concepts</h3>
+                </div>
+            </div>
+        </div>
+        <div class="issue-button">
+            <button data-article="articles/death/death_article1.html">Penthesilea</button>
+            <button data-article="articles/death/death_article2.html">Hecabe</button>
+            <button data-article="articles/death/death_article3.html">Medea</button>
+        </div>
+        <div class="article-window">
+            <div id="article-container">
+                <iframe id="article-frame" sandbox="allow-scripts"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="article.js"></script>
+</body>
+
+</html>
