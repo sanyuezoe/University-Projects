@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greek Mythology in Feminist Perspectives</title>
+
+    <link rel="stylesheet" id="active-style" href="style1.css">
+
+      <!-- font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Rochester&display=swap" rel="stylesheet">
+
+
+      <!-- MAP -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+</head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <ul class="nav-links">
+                  <input type="checkbox" id="checkbox_toggle" />
+                  <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                  <div class="menu">
+                    <li><a href="/">HOME</a></li>
+                    <li class="navbar-issues">
+                      <a id="disable_btn" href="/">ISSUE</a>
+                      <ul class="dropdown">
+                        <li><a href="love_issue.html">LOVE</a></li>
+                        <li><a href="death_issue.html">DEATH</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="documentation.html">DOCUMENTATION</a></li>
+                  </div>
+                </ul>
+              </nav>
+        </header>
+
+          <section class="team">
+            <h1>Team Members</h1>
+            <div class="team-container">
+                <div class="member-card">
+                    <h2>Andrea Zanetti</h2>
+                    <p  class="memeber-text inverse dotted scannedv">Andrea is student enrolled in the DHDk master degree program at the Univeristy of Bologna. 
+                      In collaboration with 
+                      his team mate Zoe, he took part in the design of this website, working on style and web design, 
+                      content curation and metadata enrichment. </p>
+                </div>
+                <div class="member-card">
+                     <h2>Zhao Ying (Zoe)</h2>
+                    <p  class="memeber-text inverse dotted scannedv">Zoe is a student from a Master's program in Digital Humanities and Digital Knowledge of the University of Bologna, 
+                      who led the development of the entire website, creating an immersive map using LeafLet, 
+                      and curating the metadata list. Additionally, crafting two unique styles.</p>
+                </div>
+            </div>
+           
+        </section>
+        <hr class="glitched-hr">
+        <section class="disclaimer">
+            <h1>Disclaimer</h1>
+            <p>The purpose of this web site is to explore various types of typographic and layout style for text documents, <br>
+                as an end-of-course project for the "Information Modeling and Web technologies" course <br>
+                of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, 
+                under prof. Fabio Vitali.<br>
+                The documents contained in this web site have been selected for their length and complexity from external novels and articles. </p>
+                <p>Their publication here is not intended to be an alternative or replace their original locations:</p>
+                <a class="link-article" href="https://annas-archive.org/md5/bcc4c68efb83d7eaf48a917498f674c6">•A Thousand Ships</a><br>
+                <a class="link-article" href="https://annas-archive.org/md5/0a269bb9daab74069a65c11e1ceea1de">•Circe</a><br>
+                <a class="link-article" href="http://www.jstor.org/stable/24595328">•Medea the Feminist</a><br>
+                <a class="link-article" href="https://etheses.bham.ac.uk/id/eprint/4294/1/Ranger13MPhil.pdf">•An intertextual analysis of the novel Girl Meets Boy</a><br>
+                <a class="link-article" href="http://www.jstor.org/stable/20688878">•Ilse Langner's Klytemnestra:A Feminist Response to the Rhetoric of War</a><br>
+                <p>All copyrights and related rights on the content remain with their original owners.</p>
+                <p>All copyright on the typographic and layout choices are 2023 © Zhao Ying and Andrea Zanetti </p>
+        </section>
+
+        <div class="style-buttons">
+          <button class="style-button" id="style1">XIX</button>
+          <button class="style-button" id="style2">EarlyXX</button>
+          <button class="style-button" id="style3">LateXX</button>
+          <button class="style-button" id="style4">2030</button>
+      </div>
+      
+      <script src="script.js"></script>
+       
+    </body>

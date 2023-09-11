@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Greek Mythology in Feminist Perspectives</title>
+
+        <link rel="stylesheet" id="active-style" href="style1.css">
+
+          <!-- font -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Rochester&display=swap" rel="stylesheet">
+
+    
+          <!-- MAP -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+    </head>
+
+        <body>
+            <header>
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <ul class="nav-links">
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <div class="menu">
+                        <li><a href="/">HOME</a></li>
+                        <li class="navbar-issues">
+                            <a id="disable_btn" href="/">ISSUE</a>
+                        <ul class="dropdown">
+                            <li><a href="love_issue.html">LOVE</a></li>
+                            <li><a href="death_issue.html">DEATH</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="documentation.html">DOCUMENTATION</a></li>
+                    </div>
+                    </ul>
+                </nav>
+            </header>
+
+            <section>
+                <div class="issue-intro">
+                    <div class="love-cover issue-intro-img"></div>
+                    <div class="issue-intro-text">
+                        <p>In the love-themed issue, we embark on a captivating exploration of love in its various forms, 
+                            where we encounter the enchanting stories of three extraordinary characters: Clytemnestra, Circe, 
+                            and the book "Girl Meets Boy." Through the skillful storytelling of our talented writers, 
+                            we unravel the intricacies of their relationships, their personal journeys, 
+                            and the profound impact of love on their lives.</p>
+                        <p> we invite you to immerse yourself in these compelling narratives of love's triumphs and challenges.
+                            Prepare to be captivated by the multifaceted nature of love and the transformative power 
+                            it holds in the lives of these extraordinary characters.</p>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="glitched-hr">
+            <!-- ISSUES -->
+            <section class="issues-main">
+                <div class="checkbox">
+                    <div id="options">
+                        <label><input type="checkbox" name="highlight-option" value="name"> People</label>
+                        <label><input type="checkbox" name="highlight-option" value="place"> Places</label>
+                        <label><input type="checkbox" name="highlight-option" value="concept"> Concepts</label>
+                    </div>
+                    <hr class="glitched-hr">
+                    <div class="metadata-list">
+                        <div class="metadata-people">
+                            <h3>People</h3>
+                            <div id="people-list">
+        
+                            </div>
+                        </div>
+                        <hr class="glitched-hr">
+                        <div class="metadata-place">
+                            <h3>Places</h3>
+                            <div id="place-list">
+        
+                            </div>
+                        </div>
+                        <hr class="glitched-hr">
+                        <div class="metadata-concept">
+                            <h3>Concepts</h3>
+                            <div id="concept-list">
+                            </div>
+                        </div>
+                        <hr class="glitched-hr">
+                        <div>
+                            <a href="index.html#map">MAP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue-button">
+                    <button data-article="articles/love/love_article1.html" class="glitch-button">Klytemnestra</button>
+                    <button data-article="articles/love/love_article2.html" class="glitch-button">Girls Meets Boys</button>
+                    <button data-article="articles/love/love_article3.html" class="glitch-button">Circe</button>
+                  </div>
+                <div class="article-window">
+                    <div id="article-container">
+                        <iframe id="article-frame"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <div class="style-buttons">
+                <button class="style-button" id="style1">XIX</button>
+                <button class="style-button" id="style2">EarlyXX</button>
+                <button class="style-button" id="style3">LateXX</button>
+                <button class="style-button" id="style4">2030</button>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script type="module" src="/article.js"></script>
+            <script src="/script.js"></script>
+        </body>
+    </html>
