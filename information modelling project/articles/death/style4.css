@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Cyberpunk";
+  src: url("/font/Cyberpunk.ttf");
+}
+
+.highlight-name {
+  border: 2px solid rgba(255, 255, 167, 0.877);
+  box-shadow: #f9f8d2;
+}
+
+.highlight-place {
+  border: 2px solid rgba(209, 78, 78, 0.811);
+  box-shadow: #f9f8d2;
+}
+
+.highlight-concept {
+  border: 2px solid rgba(97, 97, 212, 0.845);
+  box-shadow: #f9f8d2;
+}
+
+body {
+  background: black;
+  color: #ffa3fd;
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+  line-height: 2;
+}
+
+.article-inside-container {
+  animation: cyber-glitch-2 4s linear infinite;
+  text-align: center;
+  margin: 0 20px;
+}
+
+h3 {
+  font-family: "Cyberpunk", sans-serif;
+  font-size: 30px;
+}
+
+a {
+  border: solid 1px #e384ff;
+  color: #ffa3fd;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+@keyframes cyber-glitch-2 {
+  0% {
+    clip-path: var(--og-clip-path);
+    transform: translateX(0);
+    text-shadow: none;
+  }
+  2% {
+    clip-path: polygon(0 40%, 0 100%, 100% 100%, 100% 40%);
+    transform: translateX(0);
+    text-shadow: var(--cyan) 1px 1px, var(--yellow) -1px -1px;
+  }
+  4% {
+    clip-path: polygon(0 40%, 0 100%, 100% 100%, 100% 40%);
+    transform: translateX(-1rem);
+    text-shadow: var(--cyan) 1px 1px, var(--yellow) -1px -1px;
+  }
+  6% {
+    clip-path: polygon(0 40%, 0 100%, 100% 100%, 100% 40%);
+    transform: translateX(1rem);
+    text-shadow: var(--cyan) 1px 1px, var(--yellow) -1px -1px;
+  }
+  8% {
+    clip-path: polygon(0 40%, 0 100%, 100% 100%, 100% 40%);
+    transform: translateX(0);
+    text-shadow: var(--cyan) 1px 1px, var(--yellow) -1px -1px;
+  }
+  12% {
+    clip-path: polygon(0 10%, 0 40%, 100% 40%, 100% 10%);
+    transform: translateX(0);
+    text-shadow: var(--cyan) 1px 1px, var(--yellow) -1px -1px;
+  }
+  14% {
+    clip-path: var(--og-clip-path);
+    transform: translateX(0);
+    text-shadow: none;
+  }
+  100% {
+    clip-path: var(--og-clip-path);
+    transform: translateX(0);
+    text-shadow: none;
+  }
+}
