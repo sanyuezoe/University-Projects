@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non ho niente da dire</title>
+    <link rel="stylesheet" href="/Website/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#introduction">INTRODUCTION</a>
+        <a href="#data">DATA</a>
+        <a href="#visualization">VISUALIZATION</a>
+    </nav>
+</header>
+
+<main>
+  <div class="cover">
+    <div class="title">
+        <h1>Non Ho Niente Da Dire</h1>
+        <h3 class="sub_title">
+            A Data Visualization Project about Hong Kong protests against Extradition Bill
+        </h3>
+    </div>
+  </div >
+  <section id="introduction">
+      <h2>Introduction</h2>
+      <p>On March 15, 2019, Hong Kong started a series of protests against a proposed amendment to the Fugitive Offenders Ordinance, 
+        which would allow extradition to mainland China. 
+        This sparked one of the biggest and longest protest movements in Hong Kong's history, 
+        as citizens feared it would threaten the region's autonomy and legal protections.
+        In the end, the extradition bill was withdrawn, 
+        but the Chinese government tightened its unprecedented control over Hong Kong since 1997 (The Handover of Hong Kong from the UK to China), 
+        by introduction of the national security law. </p>
+        <p>This social movement set a record for the largest peaceful march, 
+          with an estimated 2 million participants (the population of Hong Kong is 7.5 million).
+          Despite the strong resistance, but the outcome has led to a great undermining of freedom and democracy in Hong Kong. 
+          The result is that the departure of approximately 400,000 Hong Kong residents after those events.</p>
+      <p>This project aims to provide a detailed analysis of the unique protests, discovering their unique features. </p>
+      <h5 id="small">The title is a lyric from <span class="italic">"今夜雪糕" (Tonight's Ice Cream)</span>, a song that expresses feelings about the protests, by the Hong Kong band <span class="italic">My Little Airport</span>. </p>
+  </section>
+  
+  <section id="data">
+      <h2>Data Overview</h2>
+      <p>The project  relies on two main datasets: </p>
+      <p><span class="bold">ACLED Dataset</span>: This dataset includes detailed records of protest events in Hong Kong from March 15, 2019, to June 30, 2020. It is the main dataset for this project.</p>
+      <p><span class="bold">LOD Dataset</span>: This dataset provides crossed context and data related to specific protest events in Hong Kong.</p>
+      <h3>ACLED Dataset Preview</h3>
+      <table id="acled-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Sub Type</th>
+                <th>Location</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Related to Extradition Protests</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <h3>Wikidata Dataset Preview</h3>
+      <table id="wiki-table">
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>Event Label</th>
+                <th>related Entity Label</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+  </section>
+  
+  <section id="visualization">
+      <h2>Visualizations</h2>
+
+      <div id="bar_plot">
+        <h3>Bar Plot</h3>
+        <p><span class="bold">Bar chart</span> is a good choice to do event type comparison. Since it is easy to see the different values of different categories.</p>
+        <div class="bar chart">
+          <img src="/Viz/barplot_type.png" alt="bar chart for compare types">
+          <p><span class="bold">Description</span>: This bar chart compares the event types of two categories, we can see <u>Protests</u> are common in both related and non-related contexts, with 414 and 486 values. 
+            In contrast, <u>Riots</u> are more frequent in events related to the movement, with 189 compared to just 25 in non-related events.
+          </p>
+        </div>
+        <div class="bar chart">
+          <img src="/Viz/barplot_subtype.png" alt="bar chart for compare subtypes">
+          <p><span class="bold">Description</span>: This bar chart compares the sub-event types of two categories, The most common sub-event type is <u>Peaceful protests</u>,  with 368 related to movement and 474 not related. 
+            In contrast, <u>Violent Demonstation</u> has 189 events related to and only 25 not related. In <u>protests with intervention</u>, it occurs more frequently in related events, with 43 occurrences compared to 11 in non related events.
+            <u>Excessive Force Against Protesters</u> are relatively rare.
+          </p>
+        </div>
+        <div class="result">
+          <p><span class="bold">Conclusion:</span></p>
+          <p>1.Events related to the movement tend to have a higher incidence of violent and intervention-related sub-events compared to those not related to the movement.</p>
+          <p>2.The relatively higher number of protests with intervention in related events suggests a greater involvement of law enforcement in these contexts.</p>
+          <p>3.While peaceful protests are common in both contexts, violent demonstrations and riots are more strongly associated with events related to the movement.</p>
+        </div>
+      </div>
+
+
+
+
+      <div id="line_plot">
+        <h3>Line Plot</h3>
+        <p>The project used <span class="bold">line chart</span> to show the temporal trends. 
+          they provide timeline of protests in Hong Kong, to distinguish between protests related to the movement and those are not. 
+          The x-axis is the date, from 2019 March to 2020 June, And the y-axis is the number.</p>
+        <div class="line chart">
+          <img src="/Viz/lineplot_peaceful.png" alt="temporal graph for peaceful event compare">
+            <p><b>Description</b>:
+              The green line (related to extradition protests)  shows significant peaks in June, July, November 2019, and June 2020. 
+              Additionally, it has a decline in activities at the end of 2019 and the beginning of 2020.
+              The orange line(not related to extradition protests) displays fewer peaks, 
+              indicating a more even distribution of activities throughout the period.
+            </p>
+        </div>
+
+        <div class="line chart">
+          <img src="/Viz/lineplot_violence.png" alt="temporal graph for violent event compare">
+          <p><b>Description</b>: 
+            The green line (related to extradition protests) shows little but significant peaks, 
+            particularly a massive spike in November 2019.
+            The orange line (not related to extradition protests) remains consistently low, with a few and minor peaks.
+            </p>
+        </div>
+
+        <div class="result">
+          <p><span class="bold">Conclusion:</span></p>
+            <p>1.Both peaceful and violent protests are primarily related to the extradition bill.</p>
+            <p>2.External factors strongly influence protests related to the extradition bill, 
+              such as high activities each June, which aligns with the anniversary of the Tiananmen Square protests, 
+              and decreased activities during early 2020, which aligns with the COVID-19 pandemic. </p>
+            <p>3.There is a temporal relation between peaceful and violent protests, 
+              which peaks in peaceful protests are often accompanied by peaks in violent protests.</p>
+        </div>
+      </div>
+
+      <div id="map_plot">
+      <h3>Projection Map</h3>
+      <div class="chart">
+        <img src="/Viz/hk_protests_numbers_map.png" alt="map graph for numbers of protests">
+        <p><b>Description</b>: This map represents the geographic distribution and concentration of protest events across various districts in Hong Kong. 
+          Each district is shaded according to the number of protests, with a gradient color scale indicating the intensity from lighter to darker shades.
+          <br/>The district of <u>Yau Tsim Mong</u> has the highest concentration of protests, making it the primary hotspot for protest activities in Hong Kong.
+          <u>Kwun Tong, Wan Chai and Sha Tin </u>also show a high number of protests. 
+        </p>
+        <div class="result">
+          <p><span class="bold">Conclusion:</span></p>
+            <p>The geographic distribution of protests in Hong Kong reveals that protests are most heavily concentrated in the districts of Yau Tsim Mong, 
+            Kwun Tong, Wan Chai, Sha Tin, and Eastern. Yau Tsim Mong, in particular, stands out as the primary hub of protest activities.</p>
+        </div>
+        
+      </div>
+      </div>
+
+      <div id="word_cloud">
+        <h3>Word Cloud</h3>
+        <div class="chart">
+          <img src="/Viz/wordcloud.png" alt="connection graph">
+          <p><b>Description</b>: This word cloud highlights frequent words related to protests, 
+            extracted from a limited dataset. While the results may be biased due to the constraints, 
+            it aim to provide viewers with a good glimpse of the events.</p>
+          <p>The largest and most prominent phrases are <u>Hong Kong</u>, <u>Extradition Bill</u>, and <u>Anti</u>, It also has many months words.</p>
+          <div class="result">
+            <p><span class="bold">Conclusion:</span>It captures the key themes and elements associated with the Hong Kong protests.</h5>
+          </div>
+          
+        </div>
+      </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Zhao Ying Università di Bologna</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script src="/Website/script.js"></script>
+</body>
+</html>

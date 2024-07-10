@@ -1,0 +1,70 @@
+event,eventLabel,date,relation,relatedEntity,relatedEntityLabel,relationLabel,latitude,longitude
+http://www.wikidata.org/entity/Q65315561,"hunger strike against extradition bill in Hong Kong, 2019",03 July 2019,,,,,,
+http://www.wikidata.org/entity/Q66116076,2019 MTR non-cooperation movement,,,,,,,
+http://www.wikidata.org/entity/Q66711913,2019 Hong Kong Lennon Wall,,,,,,,
+http://www.wikidata.org/entity/Q67635900,2019 Hong Kong International Airport protest,,,,,,22.3023,113.9244
+http://www.wikidata.org/entity/Q67934054,Citizens' Press Conference,,,,,,,
+http://www.wikidata.org/entity/Q67936126,2019 Hong Kong student protest,,,,,,,
+http://www.wikidata.org/entity/Q67984328,Hong Kong roar,,,,,,,
+http://www.wikidata.org/entity/Q69671676,Declaration of the Hong Kong Provisional Government,04 October 2019,,,,,,
+http://www.wikidata.org/entity/Q74765170,Siege of the Chinese University of Hong Kong,,,,,,22.4197,114.2067
+http://www.wikidata.org/entity/Q75443575,2019 Hong Kong Polytechnic University conflict,,,,,,22.3042,114.1792
+http://www.wikidata.org/entity/Q85885496,yellow economic circle,,,,,,,
+http://www.wikidata.org/entity/Q66364454,2 August 2019 Hong Kong anti-extradition bill protest,2018-08-02T00:00:00Z,,,,,22.2803,114.1611
+http://www.wikidata.org/entity/Q65312873,31 March 2019 Hong Kong anti-extradition bill protest,2019-03-31T00:00:00Z,,,,,22.2808,114.1656
+http://www.wikidata.org/entity/Q65312929,28 April 2019 Hong Kong anti-extradition bill protest,2019-04-28T00:00:00Z,,,,,22.2804,114.1848
+http://www.wikidata.org/entity/Q64577033,6 June 2019 demonstration against extradition bill,2019-06-06T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q64682572,9 June 2019 Hong Kong anti-extradition bill protest,2019-06-09T00:00:00Z,,,,,22.2825,114.165
+http://www.wikidata.org/entity/Q64576952,12 June 2019 demonstration against extradition bill,2019-06-12T00:00:00Z,http://www.wikidata.org/prop/direct/P710,http://www.wikidata.org/entity/Q65061408,Rupert Dover,http://www.wikidata.org/prop/direct/P710,22.2808,114.1656
+http://www.wikidata.org/entity/Q64620775,16 June 2019 Hong Kong anti-extradition bill protest,2019-06-16T00:00:00Z,,,,,22.2823,114.1674
+http://www.wikidata.org/entity/Q64780500,21 June 2019 Hong Kong anti-extradition bill protest,2019-06-21T00:00:00Z,,,,,22.2795,114.1722
+http://www.wikidata.org/entity/Q65312841,G20 Free Hong Kong Assembly,2019-06-26T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q64997674,1 July 2019 Hong Kong anti-extradition bill protest,2019-07-01T00:00:00Z,,,,,22.2811,114.1661
+http://www.wikidata.org/entity/Q65070797,July 2019 Restoration of Tuen Mun Park,2019-07-06T00:00:00Z,,,,,22.3922,113.9739
+http://www.wikidata.org/entity/Q65115370,7 July 2019 Hong Kong anti-extradition bill protest,2019-07-07T00:00:00Z,,,,,22.3193,114.1694
+http://www.wikidata.org/entity/Q66737806,2019 Sheung Shui protest,2019-07-13T00:00:00Z,,,,,22.5064,114.1311
+http://www.wikidata.org/entity/Q65561121,14 July 2019 Hong Kong anti-extradition bill protest,2019-07-14T00:00:00Z,,,,,22.3828,114.1918
+http://www.wikidata.org/entity/Q65766929,21 July 2019 Hong Kong anti-extradition bill protest,2019-07-21T00:00:00Z,,,,,22.2776,114.1716
+http://www.wikidata.org/entity/Q65974929,26 July 2019 Hong Kong anti-extradition bill protest,2019-07-26T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q65963623,27 July 2019 Hong Kong anti-extradition bill protest,2019-07-27T00:00:00Z,,,,,22.4444,114.0261
+http://www.wikidata.org/entity/Q65974985,28 July 2019 Hong Kong anti-extradition bill protest,2019-07-28T00:00:00Z,,,,,22.2806,114.1808
+http://www.wikidata.org/entity/Q66102753,"30 July 2019 Kwai Chung, Hong Kong anti-extradition bill protest",2019-07-30T00:00:00Z,http://www.wikidata.org/prop/direct/P710,http://www.wikidata.org/entity/Q69394927,Lau Chak Kei,http://www.wikidata.org/prop/direct/P710,,
+http://www.wikidata.org/entity/Q66183788,3 August 2019 Hong Kong anti-extradition bill protest,2019-08-03T00:00:00Z,,,,,22.2978,114.1681
+http://www.wikidata.org/entity/Q66183521,4 August 2019 Hong Kong anti-extradition bill protest in Tseung Kwan O,2019-08-04T00:00:00Z,,,,,22.325,114.253
+http://www.wikidata.org/entity/Q66364467,4 August 2019 Hong Kong anti-extradition bill protest in Western District,2019-08-04T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q66208380,5 August 2019 Hong Kong anti-extradition bill protest,2019-08-05T00:00:00Z,,,,,22.3731,114.1171
+http://www.wikidata.org/entity/Q66417361,10 August 2019 Hong Kong anti-extradition bill protest,2019-08-10T00:00:00Z,,,,,22.445,114.17
+http://www.wikidata.org/entity/Q66364431,11 August 2019 Hong Kong anti-extradition bill protest,2019-08-11T00:00:00Z,,,,,22.303,114.1718
+http://www.wikidata.org/entity/Q66720612,12 August 2019 Hong Kong anti-extradition bill protest,2019-08-12T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q67635640,Fu Guohao incident,2019-08-13T00:00:00Z,http://www.wikidata.org/prop/direct/P710,http://www.wikidata.org/entity/Q66446681,Fu Guohao,http://www.wikidata.org/prop/direct/P710,22.3089,113.9144
+http://www.wikidata.org/entity/Q67635793,Xu Jinyang incident,2019-08-13T00:00:00Z,,,,,22.3089,113.9144
+http://www.wikidata.org/entity/Q66804035,"Stand With Hong Kong, Power to the People Rally",2019-08-16T00:00:00Z,,,,,22.2803,114.1611
+http://www.wikidata.org/entity/Q67934821,17 August 2019 Hong Kong protest,2019-08-17T00:00:00Z,,,,,22.3148,114.1921
+http://www.wikidata.org/entity/Q66618013,18 August 2019 Hong Kong anti-extradition bill protest,2019-08-18T00:00:00Z,,,,,22.2817,114.1889
+http://www.wikidata.org/entity/Q66716070,Hong Kong Way,2019-08-23T00:00:00Z,,,,,22.3531,114.1869
+http://www.wikidata.org/entity/Q67182249,24 August 2019 Hong Kong anti-extradition bill protest,2019-08-24T00:00:00Z,,,,,22.3119,114.2219
+http://www.wikidata.org/entity/Q66739394,25 August 2019 Hong Kong anti-extradition bill protest,2019-08-25T00:00:00Z,,,,,22.3689,114.114
+http://www.wikidata.org/entity/Q66940160,31 August 2019 Hong Kong anti-extradition bill protest,2019-08-31T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q67183941,1 September 2019 Hong Kong anti-extradition bill protest,2019-09-01T00:00:00Z,,,,,22.2893,113.9416
+http://www.wikidata.org/entity/Q67936341,2 September 2019 Hong Kong protest,2019-09-02T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q67183953,7 September 2019 Hong Kong anti-extradition bill protest,2019-09-07T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q67705976,8 September 2019 Hong Kong anti-extradition bill protest,2019-09-08T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q68446810,15 September 2019 Hong Kong anti-extradition bill protest,2019-09-15T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q70931593,death of Chan Yin Lam,2019-09-19T00:00:00Z,,,,,22.3021,114.2614
+http://www.wikidata.org/entity/Q72711447,September 2019 Guangfu Tuen Mun Park,2019-09-21T00:00:00Z,,,,,22.3917,113.9711
+http://www.wikidata.org/entity/Q70203177,28 September 2019 Hong Kong anti-extradition bill protest,2019-09-28T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q69433914,Global Anti-totalitarianism Protest,2019-09-29T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q69322854,1 October 2019 Hong Kong protest,2019-10-01T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q69738576,4 October 2019 Hong Kong protest,2019-10-04T00:00:00Z,,,,,22.2478,114.1519
+http://www.wikidata.org/entity/Q73616743,2 November 2019 Hong Kong anti-extradition bill protest,2019-11-02T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q74040572,death of Chow Tsz-lok,2019-11-04T00:00:00Z,http://www.wikidata.org/prop/direct/P710,http://www.wikidata.org/entity/Q75582642,Chow Tsz-lok,http://www.wikidata.org/prop/direct/P710,22.3106,114.2619
+http://www.wikidata.org/entity/Q74661306,11 November 2019 Hong Kong anti-extradition bill protest,2019-11-11T00:00:00Z,,,,,22.3035,114.1809
+http://www.wikidata.org/entity/Q74661837,12 November 2019 Hong Kong anti-extradition bill protest,2019-11-12T00:00:00Z,,,,,22.3369,114.1744
+http://www.wikidata.org/entity/Q75063045,13 November 2019 Hong Kong protest,2019-11-13T00:00:00Z,,,,,22.4522,114.0016
+http://www.wikidata.org/entity/Q75250221,14 November 2019 Hong Kong protest,2019-11-14T00:00:00Z,,,,,22.2826,114.1582
+http://www.wikidata.org/entity/Q80111737,15 November 2019 Hong Kong protest,2019-11-14T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q78637683,1 December 2019 Hong Kong protest,2019-12-01T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q97032974,1 July 2020 Hong Kong march,2020-07-01T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q97663992,21 July 2020 Hong Kong protest,2020-07-21T00:00:00Z,,,,,,
+http://www.wikidata.org/entity/Q99770698,2020 detainment of Hong Kong residents at sea by China,2020-08-23T00:00:00Z,http://www.wikidata.org/prop/direct/P710,http://www.wikidata.org/entity/Q98764365,Andy Li Yu-hin,http://www.wikidata.org/prop/direct/P710,21.9644,114.5664
+http://www.wikidata.org/entity/Q98764044,6 September 2020 Hong Kong protest,2020-09-06T00:00:00Z,,,,,,
