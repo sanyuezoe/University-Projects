@@ -1,0 +1,144 @@
+@base <https://w3id.org/chain/> .
+
+# Prefixes
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Items
+<item/xuzhouIncidentVideo> a crm:E89_Propositional_Object ;  # Video Clip
+    crm:P2_has_type "video" ;
+    crm:P14_carried_out_by "徐州一修哥" ;
+    dcterms:spatial <platform/douyin> ;
+    crm:P129_is_about <person/TheChainedWoman> ;
+    crm:P7_took_place_at <place/Xuzhou> ;
+    crm:P55_has_current_location <platform/youtube> ;
+    schema:uploadDate "2020-01-26"^^xsd:date ;
+    schema:url <https://www.youtube.com/watch?v=5npkJ6NR4r4> .
+
+# Official Statements
+<item/officialStatements> a crm:E31_Document ;
+    crm:P94_has_created <organization/FengxianXuzhouInvestigationTeam> ;
+    dcterms:publisher <organization/FengxianXuzhouInvestigationTeam> ;
+    crm:P105_right_held_by <organization/FengxianXuzhouInvestigationTeam> ;
+    dcterms:spatial <place/Xuzhou> ;
+    dcterms:issued "2020-01-28"^^xsd:date ;
+    dcterms:valid "2020-02-23"^^xsd:date ;
+    crm:P72_has_Title "关于网民反映'生育八孩女子'情况通报" ;
+    crm:P72_has_Language "Chinese" ;
+    crm:P2_has_type "Text" ;
+    dcterms:references <event/XuzhouChainedWomanIncident> .
+
+# Trafficking Article
+<item/traffickingArticle> a crm:E31_Document ;
+    dc:creator <person/Luoxiang> ;
+    dcterms:spatial <platform/wechat> ;
+    schema:datePublished "2020-02-07"^^xsd:date ;
+    crm:P2_has_type "text" ;
+    crm:P72_has_Title "Why Do I Still Advocate for Harsher Penalties for the Crime of Buying Women and Children?" ;
+    crm:P72_has_Language "Chinese" ;
+    schema:url <https://mp.weixin.qq.com/s/UUwTBaeSCU5Rw_fSKNSZMw> ;
+    dc:subject "Human Trafficking" .
+
+# Online Exhibition
+<item/onlineExhibition> a schema:CreativeWork ;
+    dc:contributor <person/ZhangQiongfei> ;
+    crm:P14_carried_out_by "Chinese Feminist Artists Group" ;
+    crm:P50_has_current_keeper "Chinese Feminist Artists Alliance" ;
+    schema:datePublished "2020-02-08"^^xsd:date ;
+    crm:P2_has_type "Artwork" ;
+    crm:P72_has_Title "Break the Chain" .
+
+# Street Art
+<item/streetArt> a crm:E22_Man-Made_Object ;
+    dc:creator <person/Jorsin> ;
+    dc:creator <person/RevosOne> ;
+    schema:locationCreated <place/Tianjin> ;
+    dcterms:spatial <platform/weibo> ;
+    crm:P55_has_current_location <platform/instagram> ;
+    schema:datePublished "2020-03-05"^^xsd:date ;
+    crm:P2_has_type "Street Art" .
+
+#Wuyi Posts
+<item/wuyiPosts> a crm:E89_Propositional_Object ;
+    dc:creator <person/Wuyi> ;
+    dcterms:issued "2020-02-07"^^xsd:date ;
+    dcterms:valid "2020-02-22"^^xsd:date ;
+    schema:contentLocation <place/Xuzhou> ;
+    dcterms:spatial <platform/weibo> ;
+    crm:P55_has_current_location <platform/ChinaDigitalTimes> ;
+    crm:P2_has_type "digital text" ;
+    crm:P72_has_Language "Chinese" .
+
+#Liying Image
+<item/liyingImage> a crm:E38_Image ;
+    dc:subject <person/LiYing> ;
+    crm:P14_carried_out_by "想看法桑起床" ;
+    dcterms:spatial <platform/weibo> ;
+    crm:P55_has_current_location <platform/ChinaDigitalTimes> ;
+    schema:uploadDate "2020-01-29"^^xsd:date ;
+    crm:P2_has_type "digital image" .
+
+
+#Bling Mountain
+<item/blindMountain> a schema:Movie ;
+    schema:director <person/LiYang> ;
+    dc:publisher <organization/KunPengXingYun> ;
+    schema:datePublished "2007-02-05"^^xsd:date ;
+    schema:locationCreated <place/Shannxi> ;
+    crm:P2_has_type "movie" ;
+    crm:P72_has_Title "Blind Mountain" ;
+    crm:P72_has_Language "Chinese" ;
+    schema:duration "PT1H35M"^^xsd:duration .
+
+#Book
+<item/humanTraffickingBook> a crm:E31_Document ;
+    dc:creator <person/MargaretMalloch> ;
+    dcterms:publisher <organization/EdinburghUniversityPress> ;
+    schema:datePublished "2017-08-01"^^xsd:date ;
+    crm:P2_has_type "book" ;
+    crm:P72_has_Title "Human Trafficking: The Complexities of Exploitation" ;
+    crm:P72_has_Language "English" ;
+    crm:P1_is_identified_by "ISBN-10:147440112" .
+
+#Letter
+<item/jointPetitionLetter> a dbo:letter ;
+    crm:P105_right_held_by <organization/StateBureauForLettersAndVisits> ;
+    schema:datePublished "2020-04-20"^^xsd:date ;
+    schema:dateCreated "2020-03-08"^^xsd:date ;
+    crm:P2_has_type "letter" ;
+    crm:P72_has_Title "彻查徐州铁链女事件 保障公民免于恐惧的自由 呼吁书" ;
+    crm:P72_has_Language "Chinese" ;
+    crm:P16_used_specific_object "Petition" .
+
+#OTHERS
+
+<place/Xuzhou> a crm:E53_Place ;
+        owl:sameAs <https://dbpedia.org/page/Xuzhou> .
+
+<platform/wechat> a crm:E78_Curated_Holding ;
+    owl:sameAs <https://dbpedia.org/page/WeChat> .
+
+<place/Tianjin> a crm:E53_Place ;
+        owl:sameAs <https://dbpedia.org/page/Tianjin> .
+
+<platform/instagram> a crm:E78_Curated_Holding ;
+    owl:sameAs <https://dbpedia.org/page/instagram> .
+
+<platform/weibo> a crm:E78_Curated_Holding ;
+    owl:sameAs <https://dbpedia.org/page/Sina_Weibo> .
+
+<platform/ChinaDigitalTimes> a crm:E78_Curated_Holding ;
+    owl:sameAs <https://dbpedia.org/page/China_Digital_Times> .
+
+<place/Shannxi> a crm:E53_Place ;
+    owl:sameAs <https://dbpedia.org/page/Shaanxi> .
+
+<person/LiYang> a crm:E21_Person ;
+    owl:sameAs <https://dbpedia.org/page/Li_Yang_(director)> .
