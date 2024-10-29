@@ -1,0 +1,10 @@
+﻿Subject;Predicate;"	Object"
+Incident Video Clip;crm: P14_carried_out_by;徐州一修哥
+徐州一修哥;dcterms:spatial;Douyin
+Incident Video Clip;crm:P129_is_about;The Chained Woman
+Incident Video Clip;crm: P7_took_place_at;Xuzhou
+Xuzhou;owl:sameAs;https://dbpedia.org/page/Xuzhou
+Incident Video Clip;crm:P55_has_current_location;YouTube
+Incident Video Clip;schema:uploadDate;26/01/2020
+Incident Video Clip;crm:P2_has_type;Video
+Incident Video Clip;schema:url;https://www.youtube.com/watch?v=5npkIJ6NRr4

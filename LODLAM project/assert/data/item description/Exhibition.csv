@@ -1,0 +1,9 @@
+﻿Subject;Predicate;"	Object"
+Street Art of Chained Woman;dc:creator;Jorsin-
+Street Art of Chained Woman;dc:creator;Revos_one
+Street Art of Chained Woman;schema:locationCreated;Tianjin
+Tianjin;owl:sameAs;https://dbpedia.org/page/Tianjin
+Street Art of Chained Woman;dcterms:spatial;Weibo
+Street Art of Chained Woman;crm:P55_has_current_location;Instagram
+Street Art of Chained Woman;schema:dateCreated;05/03/2020
+Street Art of Chained Woman;crm:P2_has_type;Street Art

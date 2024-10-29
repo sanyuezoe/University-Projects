@@ -1,0 +1,8 @@
+﻿Subject;Predicate;"	Object"
+Li Ying's story;dc:subject;Li Ying
+Li Ying's story;crm: P14_carried_out_by;想看法桑起床
+Li Ying's story;dcterms:spatial;Weibo
+Li Ying's story;crm:P55_has_current_location;China Digital Times
+China Digital Times;owl:sameAs;https://dbpedia.org/page/China_Digital_Times
+Li Ying's story;schema:uploadDate;29/01/2020
+Li Ying's story;crm:P2_has_type;"	Digital Image"

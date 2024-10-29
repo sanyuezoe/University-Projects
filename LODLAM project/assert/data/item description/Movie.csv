@@ -1,0 +1,9 @@
+﻿Subject;Predicate;"	Object"
+Joint Petition Letter;crm: P14_carried_out_by;Li Yang
+Joint Petition Letter;crm: P105_right_held_by;https://dbpedia.org/page/Li_Yang_(director)
+Joint Petition Letter;"	schema:datePublished";"	Kun Peng Xing Yun Cultural Development"
+Joint Petition Letter;"	schema:dateCreated";"	02/05/2007"
+Joint Petition Letter;crm:P2_has_type;Shannxi
+Joint Petition Letter;crm:P72_has_Title;"	https://dbpedia.org/page/Shaanxi"
+Joint Petition Letter;"	crm:P72:has_Language";Movie
+Joint Petition Letter;"	crm:P16_used_specific_object";Blind Mountain

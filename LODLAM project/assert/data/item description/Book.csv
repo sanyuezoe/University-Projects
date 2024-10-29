@@ -1,0 +1,11 @@
+﻿Subject;Predicate;"	Object"
+Book: Human Trafficking;dc:creator;Margaret Malloch
+Book: Human Trafficking;dc:contributor;Stefano Bonino
+Book: Human Trafficking;dc:contributor;Hazel Cameron
+Book: Human Trafficking;dc:contributor;Claire Cody
+Book: Human Trafficking;dcterms:publisher;"	Edinburgh University Press"
+Book: Human Trafficking;schema:datePublished;"	01/08/2017"
+Book: Human Trafficking;crm:P2_has_type;Book
+Book: Human Trafficking;crm:P72_has_Title;"	Human Trafficking: The Complexities of Exploitation"
+Book: Human Trafficking;crm:P72:has_Language;English
+Book: Human Trafficking;crm:P1_is_identified_by;ISBN-10:1474401120
