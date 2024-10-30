@@ -9,6 +9,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix schema: <http://schema.org/> .
+@prefix iptc: <http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # Items
@@ -78,7 +79,7 @@
 
 #Liying Image
 <item/liyingImage> a crm:E38_Image ;
-    dc:subject <person/LiYing> ;
+    personInImage <person/LiYing> ;
     crm:P14_carried_out_by "想看法桑起床" ;
     dcterms:spatial <platform/weibo> ;
     crm:P55_has_current_location <platform/ChinaDigitalTimes> ;
