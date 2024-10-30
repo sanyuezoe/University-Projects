@@ -2,7 +2,8 @@
 
 ## title: 
 ### Chain———A Linked Open Data Project for
-name: Zhao Ying
+name: Zhao Ying (Zoe)
+
 a final exam project for for the " Knowledge Organization and Cultural Heritage" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, under prof. Francesca Tomasi.
 
 #### Website UI design inspiration:  
